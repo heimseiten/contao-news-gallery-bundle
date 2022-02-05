@@ -30,7 +30,10 @@ class Plugin implements BundlePluginInterface
     {
         return [
             BundleConfig::create('Heimseiten\ContaoNewsGalleryBundle\HeimseitenContaoNewsGalleryBundle')
-                ->setLoadAfter(['Contao\CoreBundle\ContaoCoreBundle']),
+                ->setLoadAfter([
+                    'Contao\CoreBundle\ContaoCoreBundle',
+                    'Contao\CoreBundle\ContaoNewsBundle'
+                ]),
         ];
     }
 }
