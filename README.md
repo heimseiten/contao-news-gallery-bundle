@@ -1,5 +1,1 @@
-![Alt text](docs/logo.png?raw=true "logo")
-
-
-# Welcome to Nachrichten Galerie
-This bundle is still under construction.
+Fügt eine Galerie in ein Nachrichten-Element ein.
