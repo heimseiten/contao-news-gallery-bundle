@@ -47,6 +47,5 @@
     },
     "extra": {
         "contao-manager-plugin": "Heimseiten\\ContaoNewsGalleryBundle\\ContaoManager\\Plugin"
-    },
-    "version": "0.0.1"
+    }
 }
