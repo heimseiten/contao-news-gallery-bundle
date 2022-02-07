@@ -22,8 +22,8 @@
         "source": "https://github.com/heimseiten/contao-news-gallery-bundle"
     },
     "require": {
-        "contao/core-bundle": "^4.11",
-        "contao/news-bundle": "4.11"
+        "contao/core-bundle": "^4.9",
+        "contao/news-bundle": "4.9"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.3",
