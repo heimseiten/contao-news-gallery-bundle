@@ -7,12 +7,12 @@ $GLOBALS['TL_DCA']['tl_news']['fields']['gallery'] = [
     'label'     => &$GLOBALS['TL_LANG']['tl_news']['gallery'], 
     'exclude'               => true,
     'inputType'             => 'fileTree',
-    'eval'                  => ['fieldType'=>'checkbox', 'files'=>true, 'multiple'=>true, 'tl_class'=>'clr', 'extensions'=>\Contao\Config::get('uploadTypes'), 'orderField'=>'galleryOrder', 'isGallery'=>true],
+    'eval'                  => ['fieldType'=>'checkbox', 'files'=>true, 'multiple'=>true, 'tl_class'=>'clr', 'extensions'=>\Contao\Config::get('uploadTypes'), 'orderField'=>'orderImages', 'isGallery'=>true],
     'sql'                   => 'blob NULL'
 ];
 
-$GLOBALS['TL_DCA']['tl_news']['fields']['galleryOrder'] = [ 
-    'label'                 => &$GLOBALS['TL_LANG'][$table]['galleryOrder'],
+$GLOBALS['TL_DCA']['tl_news']['fields']['orderImages'] = [ 
+    'label'                 => &$GLOBALS['TL_LANG'][$table]['orderImages'],
     'sql'                   => 'blob NULL'
 ];
 
